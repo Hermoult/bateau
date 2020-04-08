@@ -3,10 +3,27 @@ class gps extends bateau
 {
 
     // Les parametres-----------------------------------------------------------------
-    private $_idgps = '';
-    private $_longitude = '';
-    private $_latitude = '';
 
+    /**
+     * _idgps
+     *
+     * @var string
+     */
+    private $_idgps = '';
+
+    /**
+     * _longitude
+     *
+     * @var string
+     */
+    private $_longitude = '';
+
+    /**
+     * _latitude
+     *
+     * @var string
+     */
+    private $_latitude = '';
 
     //Le constructeur-----------------------------------------------------------------
 
