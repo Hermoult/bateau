@@ -1,5 +1,5 @@
 <?php
-    class maintenance{
+    class maintenance extends bateau{
 
         // Les parametres-----------------------------------------------------------------
         private $idmaintenance ='';
