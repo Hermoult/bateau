@@ -11,12 +11,12 @@
          * @var string date maintenance de la coque
          * @var string date maintenance de l'agrement
          */
-        private $idmaintenance ='';
-        private $electricite ='';
-        private $electronique ='';
-        private $circuit ='';
-        private $coque ='';
-        private $grement ='';
+        private $_idmaintenance ='';
+        private $_electricite ='';
+        private $_electronique ='';
+        private $_circuit ='';
+        private $_coque ='';
+        private $_grement ='';
         //Le constructeur-----------------------------------------------------------------
 
 
