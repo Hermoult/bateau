@@ -2,17 +2,17 @@
     class bateau{
 
         // Les parametres-----------------------------------------------------------------
-        private $idbateau ='';
-        private $nom ='';
-        private $modele ='';
-        private $taille ='';
-        private $proprietaire ='';
-        private $maintenance_idmaintenance ='';
-        private $carnetDeBord_idcarnetDeBord ='';
-        private $createdBy ='';
-        private $createdDate ='';
-        private $updatedBy ='';
-        private $updatedDate ='';
+        private $_idbateau ='';
+        private $_nom ='';
+        private $_modele ='';
+        private $_taille ='';
+        private $_proprietaire ='';
+        private $_maintenance_idmaintenance ='';
+        private $_carnetDeBord_idcarnetDeBord ='';
+        private $_createdBy ='';
+        private $_createdDate ='';
+        private $_updatedBy ='';
+        private $_updatedDate ='';
 
 
         //Le constructeur-----------------------------------------------------------------
@@ -38,4 +38,4 @@
         }
 
 
-    }
+    } 
