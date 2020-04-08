@@ -1,5 +1,5 @@
 <?php
-class gps
+class gps extends bateau
 {
 
     // Les parametres-----------------------------------------------------------------
