@@ -1,5 +1,5 @@
 <?php
-    class port 
+    class port extends bateau
     {
         // Les parametres------------------------------------------------------------------
         private $_idport;
@@ -25,6 +25,11 @@
         
         
         // Les Methodes------------------------------------------------------------------
+        
+        public function hydrate(array $donnees)
+        {
+            if(isset($donnees['idport'])){ $this->_idport = $donnees['idport'];}
+        }
 
 
 
