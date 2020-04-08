@@ -4,7 +4,7 @@
         // Les parametres-----------------------------------------------------------------        
         /**
          *
-         * @var string id de la maintenance
+         * @var int id de la maintenance
          * @var string date maintenance electrique
          * @var string date maintenance electronique
          * @var string date maintenance des circuits
@@ -17,6 +17,7 @@
         private $_circuit ='';
         private $_coque ='';
         private $_grement ='';
+        
         //Le constructeur-----------------------------------------------------------------
 
 
@@ -26,11 +27,11 @@
         /**
          * Set date maintenance de l'agrement
          *
-         * @param  string  $_idmaintenance  date maintenance de l'agrement
+         * @param  int  $_idmaintenance  date maintenance de l'agrement
          *
          * @return  self
          */ 
-        public function set_idmaintenance(string $_idmaintenance)
+        public function set_idmaintenance($_idmaintenance)
         {
                 $this->_idmaintenance = $_idmaintenance;
 
