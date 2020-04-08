@@ -1,14 +1,38 @@
 <?php
     class maintenance extends bateau{
 
-        // Les parametres-----------------------------------------------------------------
-        private $idmaintenance ='';
-        private $electricite ='';
-        private $electronique ='';
-        private $circuit ='';
-        private $coque ='';
-        private $grement ='';
+        // Les parametres-----------------------------------------------------------------        
+        /**
+         *
+         * @var string id de la maintenance
+         * @var string date maintenance electrique
+         * @var string date maintenance electronique
+         * @var string date maintenance des circuits
+         * @var string date maintenance de la coque
+         * @var string date maintenance de l'agrement
+         */
+        private $_idmaintenance ='';
+        private $_electricite ='';
+        private $_electronique ='';
+        private $_circuit ='';
+        private $_coque ='';
+        private $_grement ='';
+        //Le constructeur-----------------------------------------------------------------
 
+
+
+
+        //Les Setteur---------------------------------------------------------------------
+
+
+
+
+        //Les Getteurs--------------------------------------------------------------------
+
+
+
+
+        //Les methodes--------------------------------------------------------------------
 
 
         public function hydrate(array $donnees)
