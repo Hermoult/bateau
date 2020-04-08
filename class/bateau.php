@@ -16,16 +16,16 @@
     //Le constructeur-----------------------------------------------------------------
         function __construct(array $value)
         {
-        $this->_idbateau = $value['idbateau'];
-        $this->_nom = $value['nom'];
-        $this->_modele = $value['modele'];
-        $this->_taille = $value['taille'];
-        $this->_proprietaire = $value['proprietaire'];
-        $this->_maintenance_idmaintenance = $value['maintenance_idmaintenance'];
-        $this->_createdBy = $value['createdBy'];
-        $this->_createdDate = $value['createdDate'];
-        $this->_updatedBy = $value['updatedBy'];
-        $this->_updatedDate = $value['updatedDate'];
+            $this->_idbateau = $value['idbateau'];
+            $this->_nom = $value['nom'];
+            $this->_modele = $value['modele'];
+            $this->_taille = $value['taille'];
+            $this->_proprietaire = $value['proprietaire'];
+            $this->_maintenance_idmaintenance = $value['maintenance_idmaintenance'];
+            $this->_createdBy = $value['createdBy'];
+            $this->_createdDate = $value['createdDate'];
+            $this->_updatedBy = $value['updatedBy'];
+            $this->_updatedDate = $value['updatedDate'];
         }
 
 
@@ -161,5 +161,6 @@
 
      //------------------------------------------------------------------------------
         
+    
     
     } 
