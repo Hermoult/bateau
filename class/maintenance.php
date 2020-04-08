@@ -8,4 +8,13 @@
         private $circuit ='';
         private $coque ='';
         private $grement ='';
+
+
+
+        public function hydrate(array $donnees)
+        {
+            if (isset($donnees['idmaintenance'])) {
+                $this->idmaintenance = $donnees['maintenance'];
+            }
+        }
     }
