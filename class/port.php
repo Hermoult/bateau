@@ -25,6 +25,11 @@
         
         
         // Les Methodes------------------------------------------------------------------
+        
+        public function hydrate(array $donnees)
+        {
+            if(isset($donnees['idport'])){ $this->_idport = $donnees['idport'];}
+        }
 
 
 
