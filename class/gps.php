@@ -27,8 +27,11 @@ class gps extends bateau
 
     //Le constructeur-----------------------------------------------------------------
 
-
-
+    public function __construct($_longitude, $_latitude)
+    {
+        $this->_longitude = ($_longitude);
+        $this->_latitude = ($_latitude);
+    }
 
     //Les Setteur---------------------------------------------------------------------
 
