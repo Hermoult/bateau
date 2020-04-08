@@ -1,5 +1,5 @@
 <?php
-    class port 
+    class port extends bateau
     {
         // Les parametres------------------------------------------------------------------
         private $_idport;
