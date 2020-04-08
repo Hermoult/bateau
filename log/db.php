@@ -2,7 +2,7 @@
 /*     // Variables Database */
     $DB_NAME = "marina";
     $DB_DSN = "mysql:host=localhost;dbname=".$DB_NAME;
-    $DB_USER = "root"; 
+    $DB_USER = "adrien"; 
     $DB_PASSWORD = ""; 
 
     // Connexion Database
