@@ -4,7 +4,7 @@
         // Les parametres-----------------------------------------------------------------        
         /**
          *
-         * @var int id de la maintenance
+             * @var int id de la maintenance
          * @var string date maintenance electrique
          * @var string date maintenance electronique
          * @var string date maintenance des circuits
@@ -24,6 +24,7 @@
 
 
         //Les Setteur---------------------------------------------------------------------
+        
         /**
          * Set date maintenance de l'agrement
          *
@@ -98,6 +99,7 @@
             return $this;
         }
 
+        
         //Les Getteurs--------------------------------------------------------------------
 
         /**
